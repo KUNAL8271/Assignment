@@ -4,7 +4,8 @@ def calculate_discount(product, quantity, total_quantity):
 
     # Check discount rules
     if total_quantity > 30 and quantity > 15:
-        discount = 0.5  # 50% discount for quantity exceeding 15 in a product and total quantity exceeding 30
+         # 50% discount for quantity exceeding 15 in a product and total quantity exceeding 30
+        discount = 0.5 
         discount_name = "tiered_50_discount"
     elif total_quantity > 20:
         discount = 0.1  # 10% discount for total quantity exceeding 20 units
